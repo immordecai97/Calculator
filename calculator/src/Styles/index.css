@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+        background-color: #333;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        flex: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+}
+
+.no-scrollbar {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+}
+
+/* styles.css */
+.no-arrows::-webkit-outer-spin-button,
+.no-arrows::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.no-arrows {
+  -moz-appearance: textfield; /* Firefox */
+}
